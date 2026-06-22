@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Beijo no meu aniversário</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scene">
+    <div class="heart-layer"></div>
+    <div class="glow-layer"></div>
+    <div class="hero">
+      <div class="card" id="introCard">
+        <div class="card-header">
+          <div class="sparkle"></div>
+          <h1>Vamos se beijar no meu aniversário? 💖</h1>
+          <p>Escolha com carinho... 😌</p>
+        </div>
+        <div class="actions">
+          <button class="btn btn-yes" id="yesBtn" type="button">Sim ❤️</button>
+          <button class="btn btn-no" id="noBtn" type="button">Não 😢</button>
+        </div>
+      </div>
+    </div>
+    <section class="celebration hidden" id="celebrationSection">
+      <canvas id="celebrationCanvas"></canvas>
+      <div class="celebration-content">
+        <div class="celebration-card">
+          <h2>Ebaaa! 💖 Eu já sabia que você não resistiria 😍</h2>
+          <p>Agora meu aniversário vai ser ainda mais especial, porque vou ter o melhor presente de todos: um beijo seu 💋✨</p>
+          <button class="btn btn-audio" id="audioToggle" type="button">Ligar música</button>
+        </div>
+      </div>
+    </section>
+    <audio id="bgAudio" preload="auto" loop src="Musica/BIN - Saturno (prod. Ajaxx) - BIN (youtube).mp3"></audio>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
